@@ -15,10 +15,10 @@ print(" Hello, this is AI girlfriend")
 while True:
     
     
-    if keyboard.is_pressed("ctrl+alt"):
-        voice = t.read_voice()
-        time.sleep(0.1)
-        t.speak(voice)
+    voice = t.read_voice()
+    time.sleep(0.1)
+    t.speak(voice)
+    
     if keyboard.is_pressed("q"):
         break        
 
